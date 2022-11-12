@@ -1,5 +1,6 @@
 #include "main.h"
-
+#include <stdio.h>
+#include <stdarg.h>
 /**
  * _printf - produces output according to a format
  * @format: format string containing the characters and the specifiers
