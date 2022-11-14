@@ -9,6 +9,7 @@ int _printf(const char *format, ...)
 {
 	va_list arg;
 	char *x;
+	char tmp []="%";
 	int i = 0, j = 0, count = 0;
 	form typ[] = {
 		{"c", printf_c},
@@ -17,7 +18,7 @@ int _printf(const char *format, ...)
 		{NULL, NULL}
 	};
 
-	x = "%";
+	x = &tmp;
 	va_start(arg, format);
 	if (format == NULL)
 		return (-1);
