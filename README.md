@@ -7,7 +7,9 @@
 
 
 ## Welcome
-A rebuild of the standard `printf` function in C. Our project required a function capable of printing with the `%c`, `%s`, and `%%` specifiers to standard output. `printf` returns the number of characters printed. We were not asked to handle flag characters, field width, precision, or length. As you can see, this prototype is an implementation of the **printf standard function** and **variadic function** .  ## What is printf? "Writes the C string pointed by _format_ to the standard output ([stdout](http://www.cplusplus.com/stdout))"
+A rebuild of the standard `printf` function in C. Our project required a function capable of printing with the `%c`, `%s`, and `%%` specifiers to standard output. `printf` returns the number of characters printed. We were not asked to handle flag characters, field width, precision, or length. As you can see, this prototype is an implementation of the **printf standard function** and **variadic function** .  
+
+## What is printf? "Writes the C string pointed by _format_ to the standard output ([stdout](http://www.cplusplus.com/stdout))"
 
 ## The Beast that is `printf`
 It was really hard to imagine of reinventing a function in only 2 months of programming, which took a decades to imagine.
