@@ -12,18 +12,6 @@ A rebuild of the standard `printf` function in C. Our project required a functio
 ## The Beast that is `printf`
 It was really hard to imagine of reinventing a function in only 2 months of programming, which took a decades to imagine.
 
-## More Info
-
-Authorized functions and macros
-
-write (man 2 write)
-malloc (man 3 malloc)
-free (man 3 free)
-va_start (man 3 va_start)
-va_end (man 3 va_end)
-va_copy (man 3 va_copy)
-va_arg (man 3 va_arg)
-
 
 ### Examples
 
@@ -67,6 +55,19 @@ This project was basically in group of 2 but at the last minute my duo and I get
 -Don’t forget to push your header file
 -All your header files should be include guarded
 -Note that we will not provide the _putchar function for this project
+
+## More Info
+
+Authorized functions and macros
+
+write (man 2 write)
+malloc (man 3 malloc)
+free (man 3 free)
+va_start (man 3 va_start)
+va_end (man 3 va_end)
+va_copy (man 3 va_copy)
+va_arg (man 3 va_arg)
+
 
 ### Prototype
 
