@@ -3,7 +3,7 @@
 
 >Write your own `printf` function.
 
-![enter image description here](https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2FJuanLopezS%2Fprintf&psig=AOvVaw1VGupqemdaKwFOM4r2JnK_&ust=1668680511105000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKCx57i9svsCFQAAAAAdAAAAABAE)
+![enter image description here](https://camo.githubusercontent.com/32170185090b2db5d83a6adebde1a5ecebd9ec4bc499fbbffb4596efec833e18/68747470733a2f2f692e7974696d672e636f6d2f76692f6d5a4664796f5a685562342f6d617872657364656661756c742e6a7067)
 
 
 ## Welcome
@@ -29,7 +29,7 @@ These 3 functions are the bases for this project:
  2. Handler: Is the controller for the string and the formats, and also does the counter for the numbers of bytes that are printing
  3. Percent handler: Compare a list of possible specifiers with the current pattern, and return the corresponding function
 
-![enter image description](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.javatpoint.com%2Fflowchart-in-c-programming-language&psig=AOvVaw2HPN45FgkhvsW9NFIYdrzZ&ust=1668680658641000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCODV7v69svsCFQAAAAAdAAAAABAE)
+![enter image description](https://static.javatpoint.com/cpages/images/flowchart-in-c15.png)
 ![enter image description here](https://i.imgur.com/ouUh2G4.png) ![enter image description here](https://i.imgur.com/90TRtGH.png)
 
 ## Deployment
