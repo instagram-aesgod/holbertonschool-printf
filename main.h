@@ -1,30 +1,31 @@
-#ifndef HEADERFILE_H
-#define HEADERFILE_H
-#include <stdarg.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+#ifndef MAIN_H
+#define MAIN_H
 
-int _printf(const char *format, ...);
+#include <stdlib.h>
+#include <unistd.h>
+#include <stdarg.h>
 
 /**
-* struct format - This is a typedef struct.
-* @opt: Pointer type char.
-* @call_fun: Pointer to call the function.
-*/
-typedef struct format
-{
-	char *opt;
-	int (*call_fun)();
-} format_t;
+ * struct printf_struct - structure
+ * @p_str: pointer.
+ * @f: variable.
+ *
+ * Description: array.
+ */
 
-int _printf(const char *format, ...);
-int parse_format(const char *format, format_t get_opt[], va_list valist);
-int set_string(va_list valist);
-int set_char(va_list valist);
+typedef struct printf_struct
+{
+	char *p_str;
+	int (*f)(va_list x);
+} strct;
+
 int _putchar(char c);
-int set_decimal(va_list valist);
-int print_percent(__attribute__((unused))va_list valist);
-int length_of_integer(int n);
-int get_length(char *str __attribute__((__unused__)), va_list valist);
+int _printf(const char *format, ...);
+int printf_char(va_list list);
+int printf_str(va_list list);
+int printf_percent(va_list list);
+int (*printf_function(char c))(va_list list);
+int gestion_i(int arg);
+int printf_d_i(va_list list);
+
 #endif
