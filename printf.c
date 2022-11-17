@@ -1,31 +1,43 @@
 #include "main.h"
 /**
-* _printf - function that prints based on format specifier
-* @format: takes in format specifier
-* Return: return pointer to index
-*/
+ * _printf - funtion that print.
+ * @format: const char type.
+ * Return: Number of digits.
+ */
 int _printf(const char *format, ...)
 {
-	va_list valist;
-	int count;
-	format_t get_opt[] = {
-		{"c", set_char},
-		{"s", set_string},
-		{"i", set_decimal},
-		{"d", set_decimal},
-		{"%", print_percent},
-		{NULL, NULL}
-	};
+	va_list list;
+	int count = 0, i = -1;
+	int (*z)(va_list);
 
-	if (!format)
+	va_start(list, format);
+
+	if (format != NULL)
 	{
-		return (-1);
+		i = 0;
+		for (; format[count] != '\0'; i++, count++)
+		{
+			if (format[count] != '%')
+				_putchar(format[count]);
+			else if (format[count] == '%' && format[count + 1] == '\0')
+			{
+				return (-1);
+			}
+			else if (format[count] == '%' && format[count + 1] != '\0')
+			{
+				z = printf_function(format[count + 1]);
+				if (z == NULL)
+					_putchar(format[count]);
+				else
+				{
+					i = (i + z(list)) - 1;
+					count++;
+				}
+			}
+		}
 	}
-
-	va_start(valist, format);
-	count = parse_format(format, get_opt, valist);
-	va_end(valist);
-
-
-	return (count);
+	else
+		return (-1);
+	va_end(list);
+	return (i);
 }
