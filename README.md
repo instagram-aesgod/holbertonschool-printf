@@ -24,7 +24,7 @@ String: printf("%s", 'This is a string.'); Output: This is a string.
 
 ## Flowcharts
 
-![enter image description here] ![image](https://user-images.githubusercontent.com/114062498/202643681-4ede3908-415f-4598-8448-72e7c903e756.png)
+![image](https://user-images.githubusercontent.com/114062498/202643681-4ede3908-415f-4598-8448-72e7c903e756.png)
 
 
 ## Deployment
