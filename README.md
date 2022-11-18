@@ -24,15 +24,7 @@ String: printf("%s", 'This is a string.'); Output: This is a string.
 
 ## Flowcharts
 
-
-These 3 functions are the bases for this project:
-
- 1. Printf: Is the frontend of all the algorithm, so is the prototype, and just receive the variables
- 2. Handler: Is the controller for the string and the formats, and also does the counter for the numbers of bytes that are printing
- 3. Percent handler: Compare a list of possible specifiers with the current pattern, and return the corresponding function
-
-![enter image description](https://static.javatpoint.com/cpages/images/flowchart-in-c15.png)
-![enter image description here](https://i.imgur.com/ouUh2G4.png) ![enter image description here](https://i.imgur.com/90TRtGH.png)
+![enter image description here] (https://camo.githubusercontent.com/feb6f7b7a9e62579057d2f3f09fd1b0f778c14a203eae40c878ae0f3248d0664/68747470733a2f2f736c61636b2d696d67732e636f6d2f3f633d31266f313d726f2675726c3d68747470732533412532462532467777772e6669676d612e636f6d25324666696c652532466c4a374d39346c48434172667569417a536c626331572532467468756d626e61696c2533467665722533447468756d626e61696c7325324637336135643263382d366366322d343663312d393465312d353264363436366630333735)
 
 ## Deployment
 
